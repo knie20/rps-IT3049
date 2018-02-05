@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Rock Paper Scissors</title>
+
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+</head>
+
+<body>
+    <form id="nameForm" >
+        <label for="nameInput"> Your Name:</label> <p id="name"></p>
+        <input type="text" id="nameInput" placeholder="type your name"/>
+        <button id='startBtn'>Start</button>
+    </form>
+    <div id="gameScreen">
+        <form id="gameForm" >
+            <label for="choiceInput">Choose Rock, Paper, or Scissors</label>
+            <select id="rps">
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select>
+            <button id='playBtn'>Play</button>
+        </form>
+    </div>
+
+    <div id="outputSection">
+        <ul id="outputList">
+
+        </ul>
+    </div>
+    <script type="text/javascript" src="index.js" async></script>
+</body>
+</html>
