@@ -2,7 +2,7 @@ const startBtn = document.getElementById('startBtn')
 const playBtn = document.getElementById('playBtn')
 const nameForm = document.getElementById('nameForm')
 const gameScreen = document.getElementById('gameScreen')
-var name
+var name 
 
 gameScreen.style.display = 'none'
 
